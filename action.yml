@@ -1,0 +1,15 @@
+# https://help.github.com/en/articles/metadata-syntax-for-github-actions
+
+author: 'Fran Moreno'
+
+branding:
+    icon: 'git-branch'
+    color: 'yellow'
+
+description: 'Github Action that shares how to test a PR with Composer'
+
+name: 'Composer Test PR'
+
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
